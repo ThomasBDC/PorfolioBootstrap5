@@ -1,0 +1,41 @@
+#firstRowHomePage{
+    min-height: 100vh;
+    background-image: url("/img/fondLego.jpg");
+    background-position: center;
+}
+
+#text-presentation{
+    background-color: #000000bd;
+    margin-top: -100px;
+}
+
+.Description{
+    max-width: 550px;
+    margin: 15px auto;
+    font-size: 16px;
+}
+
+.text-bienvenue{
+    font-size: 22px;
+}
+
+.big-text{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#mouseBtn i{
+    font-size: 40px;
+    position: absolute;
+    bottom: 30px;
+    right:50%;
+    left:50%;
+    transform: translate(-50%, -50%) rotate(180deg);
+    transition: 0.5s;
+}
+
+#mouseBtn  i:hover{
+    height: 100px;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
