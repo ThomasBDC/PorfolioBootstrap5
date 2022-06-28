@@ -25,17 +25,29 @@
 }
 
 #mouseBtn i{
+    color:white;
     font-size: 40px;
     position: absolute;
     bottom: 30px;
-    right:50%;
-    left:50%;
     transform: translate(-50%, -50%) rotate(180deg);
     transition: 0.5s;
 }
 
 #mouseBtn  i:hover{
-    height: 100px;
-    transform: rotate(180deg);
+
+    bottom: 30px;
+    font-size: 50px;
+    transform: translate(-50%, -50%) rotate(0deg);
     cursor: pointer;
+}
+
+.btn-social-share{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.all-competences img{
+    max-width: 100px;
+    margin: auto;
 }

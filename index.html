@@ -33,39 +33,155 @@
           </nav>
     </header>
 
-    <main class="container-fluid">
+    <main class="">
         <div class="row row-cols-1" id="firstRowHomePage">
             <div class="d-flex justify-content-center flex-column text-center" id="text-presentation">
                 <div class="text-bienvenue">Bienvenue !</div>
                 <div class="big-text">Je suis Développeur</div>
                 <p class="Description">Je m'appelle Thomas, et je suis développeur depuis 2017. Depuis 2021, je fais aussi de la formation, mais tout ça, je vous en parle plus ci-dessous....</p>
                 <div class="btn-container">
-                    <button class="btn btn-outline-info">Télécharger mon CV</button>
+                    <a href="/docs/CV_TBDC.pdf" target="_blank" class="btn btn-outline-info">Télécharger mon CV</a>
                 </div>
                 <div class="" id="mouseBtn">
-                    <i class="bi bi-mouse-fill" ></i>
+                    <a href="#about"><i class="bi bi-mouse" ></i></a>
                 </div>
             </div>
         </div>
+        <div class="container">
+          <!-- Qui suis-je ?-->
+          <div class="mt-5 mb-5 row row-cols-1 row-cols-md-2 align-items-center pt-5 pb-5" id="about">
+              <div>
+                  <img class="img-thumbnail" src="img/man.jpg" style="max-width: 100%;">
+              </div>
+              <div class="pt-2 pb-2">
+                  <h2>Qui suis-je ?</h2>
+                  <p>Bonjour, je suis <span class="text-danger">Thomas BDC</span></p>
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                      <br/>
+                      <br/>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt vel lorem sed bibendum. 
+                      <br/>
+                      <br/>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing.
+                      <br/>
+                      <br/>
+                  </p>
+                  <div>
+                    <button class="me-2 btn-social-share btn btn-outline-danger"><i class="bi bi-linkedin"></i></button>
+                    <button class="me-2 btn-social-share btn btn-outline-danger"><i class="bi bi-facebook"></i></button>
+                    <button class="me-2 btn-social-share btn btn-outline-danger"><i class="bi bi-twitter"></i></button>
+                    <button class="me-2 btn-social-share btn btn-outline-danger"><i class="bi bi-pinterest"></i></button>
+                  </div>
+              </div>
+          </div>
 
-        <div class="row row-cols-2">
-            <div>
-                <img src="img/man.jpg" style="max-width: 100%;">
+          <!-- Mes compétences -->
+          <div class="mt-5 mb-5 row text-center">
+            <h2>Mes compétences</h2>
+            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error obcaecati vero quod voluptates facere. </p>
+            <div class="mt-4 row row-cols-1 row-cols-sm-2 row-cols-md-3 all-competences">
+              <div class="p-3">
+                <div class="card bg-dark p-3 border-light h-100">
+                  <img src="/img/c-sharp-800x800.png  " class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">C# .net</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                  <div class="card-footer text-danger">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="p-3">
+                <div class="card bg-dark p-3 border-light h-100">
+                  <img src="/img/html.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">HTML</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                  <div class="card-footer text-danger">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="p-3">
+                <div class="card bg-dark p-3 border-light h-100">
+                  <img src="/img/css.png" class="card-img-to  p" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">CSS</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                  <div class="card-footer text-danger">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="p-3">
+                <div class="card bg-dark p-3 border-light h-100">
+                  <img src="/img/wp.png" class="card-img-to  p" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Wordpress</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                  <div class="card-footer text-danger">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="p-3">
+                <div class="card bg-dark p-3 border-light h-100">
+                  <img src="/img/react.png" class="card-img-to  p" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">React</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                  <div class="card-footer text-danger">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="p-3">
+                <div class="card bg-dark p-3 border-light h-100">
+                  <img src="/img/devops.png" class="card-img-to  p" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">DevOps</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                  <div class="card-footer text-danger">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                </div>
+              </div>
+              
             </div>
-            <div>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt vel lorem sed bibendum. Fusce ac cursus augue. Donec ut varius libero. Aliquam pretium ornare vehicula. Donec vitae quam et nibh tristique scelerisque porta et dolor. Nam sollicitudin lacinia mauris, accumsan dapibus nibh iaculis vel. In nec enim augue.
-                    <br/>
-                    <br/>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt vel lorem sed bibendum. Fusce ac cursus augue. Donec ut varius libero. Aliquam pretium ornare vehicula. Donec vitae quam et nibh tristique scelerisque porta et dolor. Nam sollicitudin lacinia mauris, accumsan dapibus nibh iaculis vel. In nec enim augue.
-                    <br/>
-                    <br/>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt vel lorem sed bibendum. Fusce ac cursus augue. Donec ut varius libero. Aliquam pretium ornare vehicula. Donec vitae quam et nibh tristique scelerisque porta et dolor. Nam sollicitudin lacinia mauris, accumsan dapibus nibh iaculis vel. In nec enim augue.
-                    <br/>
-                    <br/>
-                </p>
-            </div>
+          </div>
         </div>
+        
     </main>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
