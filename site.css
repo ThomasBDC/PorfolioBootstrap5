@@ -4,6 +4,10 @@
     background-position: center;
 }
 
+.scrolled{
+    background-color: white;;
+}
+
 #text-presentation{
     background-color: #000000bd;
     margin-top: -100px;
@@ -50,4 +54,17 @@
 .all-competences img{
     max-width: 100px;
     margin: auto;
+}
+
+
+#about{
+    background-color: #2e3135;
+}
+
+a.nav-link.active{
+    color: rgba(255, 60, 60, 0.741) !important;
+}
+
+#navbarSite{
+    transition: 0.5s;
 }
