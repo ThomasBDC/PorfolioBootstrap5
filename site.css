@@ -1,3 +1,7 @@
+.main-content-website section:nth-child(2n){
+    background-color: #2e3135;
+}
+
 #firstRowHomePage{
     min-height: 100vh;
     background-image: url("/img/fondLego.jpg");
@@ -56,15 +60,11 @@
     margin: auto;
 }
 
-
-#about{
-    background-color: #2e3135;
-}
-
 a.nav-link.active{
     color: rgba(255, 60, 60, 0.741) !important;
 }
 
 #navbarSite{
     transition: 0.5s;
+    z-index: 1000;
 }
