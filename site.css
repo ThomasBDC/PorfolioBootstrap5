@@ -1,3 +1,7 @@
+body{
+    --red-color: rgba(255, 60, 60, 0.741);
+}
+
 .main-content-website section:nth-child(2n){
     background-color: #2e3135;
 }
@@ -61,10 +65,43 @@
 }
 
 a.nav-link.active{
-    color: rgba(255, 60, 60, 0.741) !important;
+    color: var(--red-color) !important;
 }
 
 #navbarSite{
     transition: 0.5s;
     z-index: 1000;
+}
+
+.temoignage-text{
+    color:#8b8c8d;
+}
+
+.testimonial-icon{
+    color:var(--red-color);
+    padding: 30px;
+    font-size: 45px;
+}
+
+#temoignages{
+    padding-bottom: 100px !important;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color:var(--red-color);
+}
+
+#scroll-top-button{
+    position: fixed;
+    bottom:10px;
+    right: 10px;
+    background-color: var(--red-color);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+#scroll-top-button.show{
+    opacity: 1;
+    visibility: visible;
 }
