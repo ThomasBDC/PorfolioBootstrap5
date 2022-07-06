@@ -150,3 +150,24 @@ a.nav-link.active{
 #color-setter .color-button{
     padding:5px;
 }
+
+@keyframes rotateSettings {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+        transform: rotate(360deg);
+
+    }
+}
+
+#color-setter .color-button i{
+    display: block;
+    animation-name: rotateSettings;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
