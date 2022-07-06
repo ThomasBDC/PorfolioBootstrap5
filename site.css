@@ -171,3 +171,16 @@ a.nav-link.active{
     animation-iteration-count: infinite;
 }
 
+#realisations img.realisations-img{
+    max-width: 100%;
+}
+
+#realisations a{
+    color:white;
+    text-decoration: none;
+}
+
+#realisations a:hover{
+    color:white;
+    text-decoration: underline;
+}
