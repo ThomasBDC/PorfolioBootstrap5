@@ -1,5 +1,30 @@
 body{
-    --red-color: rgba(255, 60, 60, 0.741);
+    --color-accent: rgba(255, 60, 60, 0.741);
+    --color-accent-hover: rgba(130, 27, 27, 0.741);
+}
+
+.text-danger{
+    color: var(--color-accent) !important;
+}
+
+.btn-danger{
+    border-color: var(--color-accent);
+    background-color: var(--color-accent);
+}
+
+.btn-danger:hover{
+    border-color: var(--color-accent-hover);
+    background-color: var(--color-accent-hover);
+}
+
+.btn-outline-danger{
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+}
+
+.btn-outline-danger:hover{
+    background-color: var(--color-accent);
+    color:white;
 }
 
 .main-content-website section:nth-child(2n){
@@ -65,7 +90,7 @@ body{
 }
 
 a.nav-link.active{
-    color: var(--red-color) !important;
+    color: var(--color-accent) !important;
 }
 
 #navbarSite{
@@ -78,7 +103,7 @@ a.nav-link.active{
 }
 
 .testimonial-icon{
-    color:var(--red-color);
+    color:var(--color-accent);
     padding: 30px;
     font-size: 45px;
 }
@@ -88,14 +113,14 @@ a.nav-link.active{
 }
 
 .carousel-indicators [data-bs-target]{
-    background-color:var(--red-color);
+    background-color:var(--color-accent);
 }
 
 #scroll-top-button{
     position: fixed;
     bottom:10px;
     right: 10px;
-    background-color: var(--red-color);
+    background-color: var(--color-accent);
     visibility: hidden;
     opacity: 0;
     transition: all 0.5s;
@@ -104,4 +129,24 @@ a.nav-link.active{
 #scroll-top-button.show{
     opacity: 1;
     visibility: visible;
+}
+
+#color-setter{
+    position: fixed;
+    top:15%;
+    z-index: 1200;
+    display: flex;
+    left: -100px;
+    transition: 0.5s;
+}
+
+#color-setter .color-pickers{
+    width:100px;
+    padding: 15px;
+    background-color: #181818;
+    border-radius: 15px;
+}
+
+#color-setter .color-button{
+    padding:5px;
 }

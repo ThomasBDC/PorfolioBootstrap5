@@ -65,7 +65,7 @@ Ajouter le btn scrolltop
                 <div class="big-text">Je suis Développeur</div>
                 <p class="Description">Je m'appelle Thomas, et je suis développeur depuis 2017. Depuis 2021, je fais aussi de la formation, mais tout ça, je vous en parle plus ci-dessous....</p>
                 <div class="btn-container">
-                    <a href="/docs/CV_TBDC.pdf" target="_blank" class="btn btn-outline-info">Télécharger mon CV</a>
+                    <a href="/docs/CV_TBDC.pdf" target="_blank" class="btn btn-outline-danger">Télécharger mon CV</a>
                 </div>
                 <div class="" id="mouseBtn">
                     <a href="#about"><i class="bi bi-mouse" ></i></a>
@@ -279,6 +279,27 @@ Ajouter le btn scrolltop
       <a class="btn btn-danger" href="#accueil" id="scroll-top-button">
         <i class="bi bi-chevron-up"></i>
       </a>
+
+      <div id="color-setter">
+        <div class="color-pickers">
+          <div>
+            <label>Couleur</label>
+            <input class="form-control form-control-color" type="color" id="colorAccent" />
+          </div>
+          <div>
+            <label>Hover</label>
+            <input class="form-control form-control-color" type="color" id="colorHover" />
+          </div>
+          <div class="pt-2">
+            <button class="btn btn-danger" onclick="ChangeColorFromPicker()"><i class="bi bi-paint-bucket"></i></button>
+          </div>
+        </div>
+        <div class="color-button">
+          <button class="btn btn-outline-secondary" onclick="ShowPanelColor()">
+            <i class="bi bi-gear-fill"></i>
+          </button>
+        </div>
+      </div>
     </main>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

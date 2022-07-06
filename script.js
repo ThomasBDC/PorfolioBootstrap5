@@ -13,3 +13,29 @@ window.onscroll=function(){
         scrollTopButton.classList.remove("show");
     }
 }
+
+var r = document.querySelector('body');
+
+
+function changeColor(color, colorhover) {
+  r.style.setProperty('--color-accent', color);
+  r.style.setProperty('--color-accent-hover', colorhover);
+}
+
+function ChangeColorFromPicker(){
+    let color = document.getElementById("colorAccent");
+    let colorHover = document.getElementById("colorHover");
+
+    changeColor(color.value, colorHover.value);
+}
+
+
+function ShowPanelColor(){
+    let panel = document.getElementById("color-setter");
+    if(panel.style.left == "0px"){
+        panel.style.left = "-100px";
+    }
+    else{
+        panel.style.left = "0px";
+    }
+}
