@@ -201,3 +201,17 @@ a.nav-link.active{
 .contact-container .contact-body{
     text-decoration: none;
 }
+
+.footer-page div{
+ margin:30px;
+}
+
+.footer-page{
+    background-color: #181818;
+    padding: 30px;
+}
+
+
+.footer-page a{
+    text-decoration: none;
+}
