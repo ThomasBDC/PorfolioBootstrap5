@@ -184,3 +184,20 @@ a.nav-link.active{
     color:white;
     text-decoration: underline;
 }
+
+.contact-container .contact-header i{
+    font-size: 45px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-container .contact-header h3{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+.contact-container .contact-body a,
+.contact-container .contact-body{
+    text-decoration: none;
+}
