@@ -218,7 +218,7 @@ a.nav-link.active{
 
 /* Set the size of the div element that contains the map */
 #map {
-
+    border-radius: 15px;
     margin-top: 60px;
     height: 400px;
     /* The height is 400 pixels */
